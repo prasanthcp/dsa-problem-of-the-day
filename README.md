@@ -26,7 +26,6 @@ Solve at least 1 problem daily and strengthen problem-solving skills.
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/prasanthcp/pebble.git
 git branch -M main
 git push -u origin main
 git pull origin main --rebase
