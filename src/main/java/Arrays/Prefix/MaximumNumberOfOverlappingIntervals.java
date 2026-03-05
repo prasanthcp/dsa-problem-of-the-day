@@ -19,7 +19,7 @@ Time Complexity: O(n)
 Space Complexity: O(n) ~ O(maxRange)
 */
 
-class Solution {
+class MaximumNumberOfOverlappingIntervals {
     
     public static int overlapInt(int[][] arr) {
         

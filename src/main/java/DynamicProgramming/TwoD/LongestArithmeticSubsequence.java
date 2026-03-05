@@ -13,9 +13,11 @@ Approach:
 Time Complexity: O(n^2) | Space Complexity: O(n^2)
 */
 
+package DynamicProgramming.TwoD;
+
 import java.util.HashMap;
 
-class Solution {
+class LongestArithmeticSubsequence {
      
     public int longestArithSeqLength(int[] nums) {
         

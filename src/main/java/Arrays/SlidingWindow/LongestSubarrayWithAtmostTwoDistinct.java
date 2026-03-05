@@ -2,7 +2,7 @@ package Arrays.SlidingWindow;
 
 import java.util.ArrayList;
 
-class Solution {
+class LongestSubarrayWithAtmostTwoDistinct {
     public int totalElements(int[] arr) {
         // i,  j
         // ei, ej

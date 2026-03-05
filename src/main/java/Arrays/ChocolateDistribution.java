@@ -19,7 +19,7 @@ Space Complexity: O(1)
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution {
+class ChocolateDistribution {
     public int findMinDiff(ArrayList<Integer> arr, int m) {
         
         if(m<2) return 0;

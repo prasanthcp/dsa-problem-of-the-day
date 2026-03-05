@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.032" tests="7" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day/target/test-classes:/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day/target/classes:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day/target/surefire/surefirebooter-20260305154032880_3.jar /Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day/target/surefire 2026-03-05T15-40-32_714-jvmRun1 surefire-20260305154032880_1tmp surefire_0-20260305154032880_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day/target/test-classes:/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day/target/classes:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/prasanthcherukuri/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/prasanthcherukuri"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day/target/surefire/surefirebooter-20260305154032880_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="prasanthcherukuri"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/prasanthcherukuri/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_l/65phq9z54379rjtmymtydp680000gn/T/"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/Users/prasanthcherukuri/Documents/GitHub/POTD/dsa-problem-of-the-day"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/prasanthcherukuri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testKEqualsZero" classname="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.011">
+    <error type="java.util.NoSuchElementException"><![CDATA[java.util.NoSuchElementException
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1599)
+	at java.base/java.util.HashMap$ValueIterator.next(HashMap.java:1625)
+	at java.base/java.util.Collections.min(Collections.java:601)
+	at Arrays.SlidingWindow.LongestSubstringWithKUniques.longestKSubstr(LongestSubstringWithKUniques.java:39)
+	at Arrays.SlidingWindow.LongestSubstringWithKUniquesTest.testKEqualsZero(LongestSubstringWithKUniquesTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="testWholeStringHasExactlyKUniques" classname="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.001"/>
+  <testcase name="testAllUnique" classname="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.001"/>
+  <testcase name="testEmptyString" classname="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.003"/>
+  <testcase name="testExampleCase" classname="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.001"/>
+  <testcase name="testStringShorterThanK" classname="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.0"/>
+  <testcase name="testAllSameCharacters" classname="Arrays.SlidingWindow.LongestSubstringWithKUniquesTest" time="0.0"/>
+</testsuite>

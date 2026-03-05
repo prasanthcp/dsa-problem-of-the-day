@@ -25,7 +25,7 @@ Time Complexity: O(n log n)
 Space Complexity: O(n)
 */
 
-class Solution {
+class InversionCount {
 
     static int inversionCount(int arr[]) {
         return mergesort(arr, 0, arr.length - 1);

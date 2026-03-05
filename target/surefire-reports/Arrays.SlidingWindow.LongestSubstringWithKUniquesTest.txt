@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: Arrays.SlidingWindow.LongestSubstringWithKUniquesTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! -- in Arrays.SlidingWindow.LongestSubstringWithKUniquesTest
+Arrays.SlidingWindow.LongestSubstringWithKUniquesTest.testKEqualsZero -- Time elapsed: 0.011 s <<< ERROR!
+java.util.NoSuchElementException
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1599)
+	at java.base/java.util.HashMap$ValueIterator.next(HashMap.java:1625)
+	at java.base/java.util.Collections.min(Collections.java:601)
+	at Arrays.SlidingWindow.LongestSubstringWithKUniques.longestKSubstr(LongestSubstringWithKUniques.java:39)
+	at Arrays.SlidingWindow.LongestSubstringWithKUniquesTest.testKEqualsZero(LongestSubstringWithKUniquesTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
